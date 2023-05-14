@@ -222,25 +222,34 @@ footer a:hover{
 /* ipon 12/13 pro screen */
 @media screen and (max-width: 390px) {
    .banner-container .banner-contents h1
+   
    {
-    width: 350px;}
+    width: 350px !important;}
+    .banner-container .banner-contents form{
+        width: 250px !important;
+
+    }
+    .banner-container .banner-contents form button{
+        margin-left: 205px !important;
+    }
+       
     .banner-container .banner-contents1 .pic{
         margin-right: -70px !important;
        
         
     }
     .banner-container .banner-contents1 .picc{
-       width: 350px;
+       width: 350px !important;
        
         
     }
     .banner-container1 .banner-contents h4{
         margin-top: 500px !important;
-        width: 350px;
+        width: 350px !important;
     }
     .banner-container1 .banner-contents1 .picture{
        
-        width: 350px !important;
+        width: 350px!important;
     }
 }
 /* resposnsive */
